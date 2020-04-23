@@ -1,0 +1,338 @@
+body {
+	font-family: Oswald;
+	background-color: #f2f2f2;
+	margin: 0px;
+
+}
+header {
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	color: #008000;
+	font-size: 60px;
+	font-family: Oswald;
+	position: relative;
+	font-style: normal;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+
+}
+h2, h3{
+	color: #008000;
+	font-family: Oswald;
+	padding: 0px;
+	padding-top: 15px;
+	margin-top: 0px;
+	margin-bottom: 0px; 
+	margin-left: 0px;
+	margin-bottom: 0px;
+	font-style: normal;
+	font-weight: bold;
+}
+p{
+	font-family: Gentium;	
+	font-size: 100%;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	font-style: normal;
+	font-weight: lighter;
+}
+
+i{
+	font-family: Gentium;
+	font-style: italic;
+	font-weight: lighter;
+
+
+}
+b{
+	font-family: Gentium;
+	font-style: normal;
+	font-weight: bold;
+}
+
+a{
+    color: #008000;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+	color: #ff751a;
+}
+footer{
+	padding: 0px;
+	margin. 0px;
+}
+footer p{
+	padding: 0px;
+	margin: 0px;
+}
+/*
+	---Menu styling Bootstrap 4 Flex---
+
+*/
+.bg-primary{
+	background-color: white!important;
+}
+.bg-warning{
+	background-color: white!important;
+}
+.bg-info{
+	background-color: white!important;
+}
+.bg-secondary{
+	background-color: white!important;
+}
+
+/*
+	---Header/Menu styling---
+*/
+.menuContainer{
+	font-family: Oswald;
+	display: flex;
+	justify-content: right;
+	font-size: 100%
+	width: 100%;
+}
+.menuChoices{
+	position: relative;
+	margin-left: auto;
+	padding-right: 5px;
+	padding-left: 0px;
+	padding-top: 2.5px;
+	padding-bottom: 2.5px;
+}
+/*
+	---Hero---
+*/
+.col-sm-12{
+	
+}
+.col-sm-12 h1{
+	text-align: center;
+	position: relative;
+}
+.heroImage{
+	height: 500px;
+  	background-image: url("../images/anne.jpg");
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	background-size: 100%;
+}
+
+
+
+/*.heroContainer{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-content: center;
+}
+.heroText{
+	position: absolute;
+	padding-top: 50px;
+	padding-bottom: 0px;	
+}
+.heroImage img{
+	width: 100%;
+	height: relative;
+	align-items: flex-end;
+    display: flex;
+}*/
+/*
+	---Container used for text and image part of site, used after choices---
+*/
+.imageTextContainer{
+	position: relative;
+	margin-right: 25px;
+	margin-left: 25px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/*---Bootstrap grid for menu and choices---*/
+.container{
+	padding: 10px;
+}
+.col-sm-2 p{
+	font-family: Oswald;
+	text-align: center;
+}
+.col-sm-2{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-content: center;
+	flex-direction: column;
+}
+.col-sm-2 img{
+	width: 75%;
+}
+
+.col-sm-2 svg{
+	display:block;
+	margin: auto;
+}
+/*
+	---Flexbox for images---
+*/
+.imageContainer{
+	display: flex;
+	justify-content: center;
+	padding: 0px;
+	margin: 0px;
+}
+/*.choicesContainer{
+	display: flex;	
+	justify-content: center;
+	align-items: left;
+	text-align: left;
+	align-content: left;
+}
+.choicesContent{
+	display: flex;
+	padding-right: 5px;
+	padding-left: 5px; 
+	padding-bottom: 5px;
+	padding-top: 5px;
+	margin: 0px;
+}
+.choicesBox{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	justify-content: center;
+	align-items: left;
+	text-align: center;
+	align-content: left;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.choicesBox img{
+	width: 60%;
+}
+.choicesBox p{
+	font-family: Oswald;
+	font-size: 80%;
+
+}
+.choicesBox a{
+	color: black;
+}
+.choicesBox a:hover{
+	color: #ff751a;
+	text-decoration: none;
+}*/
+/*
+	---Styling text to the left and image to the right---
+*/
+.textLeftSide{
+	width: 50%;
+	position:relative;
+}
+.textLeftSide p{
+	padding-right: 20px;
+}
+.imageRightSide{
+	width: 50%;
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+	align-items: flex-end;
+    display: flex;
+}
+.textLeftSide p{
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+/*
+	---Styling text to the right and image to the left---
+*/
+.textRightSide{
+	width: 50%;
+	position: relative;
+}
+.textRightSide p{
+	padding-left: 20px;
+}
+.textRightSide h2{
+	padding-left: 20px;
+}
+.imageLeftSide{
+	width: 50%;
+	position: relative;
+	align-items: flex-end;
+    display: flex;
+}
+/* --- ---*/
+.galleryContainer{
+	display: flex;	
+	justify-content: center;
+	align-items: left;
+	text-align: left;
+	align-content: left;
+}
+.galleryBlock{
+	position: relative;
+	width: 100%;
+}
+.galleryText{
+	position: absolute;
+	padding-top: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 0%;
+	align-items: flex-end;
+}
+.galleryImage img{
+	width: 100%;
+	height: relative;
+	align-items: flex-end;
+    
+}
+
+/*
+	---Background colours---
+*/
+.whiteBackground{
+	background-color: white;
+}
+.greyBackground{
+	background-color: #f2f2f2;
+}
+/*
+	---Embedded fonts---
+*/
+@font-face{
+	font-family: Oswald;
+	src: url(fonts/Oswald-SemiBold.ttf);
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face{
+	font-family: Gentium;
+	src: url(fonts/GentiumBasic-Regular.ttf);
+	font-weight: lighter;
+	font-style: normal;
+}
+@font-face{
+	font-family: Gentium;
+	src: url(fonts/GentiumBasic-Italic.ttf);
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face{
+	font-family: Gentium;
+	src: url(fonts/GentiumBasic-Bold.ttf);
+	font-weight: bold;
+	font-style: normal;
+}
