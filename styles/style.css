@@ -309,6 +309,34 @@ footer p{
 .greyBackground{
 	background-color: #f2f2f2;
 }
+/* 
+	---Footer---
+*/
+#footerStyle svg{
+	color: #008000;
+	-moz-transition:color .2s ease-in;
+    -o-transition:color .2s ease-in;
+    -webkit-transition:color .2s ease-in;
+}
+#footerStyle svg:hover{
+	color: #ff751a;
+}
+.col-sm-1{
+  text-align: center;
+  position: relative;
+  color: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+/*Specific styling for map.html*/
+.containerMap{
+	padding-left: 10%;
+  	padding-right: 10%;
+  	padding-top: 30px;
+ 	padding-bottom: 30px;
+
+}
+
 /*
 	---Embedded fonts---
 */
