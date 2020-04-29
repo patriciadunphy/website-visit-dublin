@@ -2,6 +2,10 @@
 <html>
 <head>
 	<link rel="icon" type="image/png" href="clover.png">
+	<meta charset="UTF-8">
+	<meta name="description" content="A site about visiting Dublin">
+	<meta name="author" content="Patricia Dunphy">
+	<meta name="keywords" content="dublin, ireland, leprechaun, shamrock, riverdance">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
@@ -13,6 +17,8 @@
 
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<!--My JQuery file-->
+	<script src="myJQuery.js"></script>
 		
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,7 +26,7 @@
 </head>
 <body>
 	<header>
-		<section>
+		<section id "menu">
 			<div class="whiteBackground">
 				<div class="d-flex flex-row-reverse bg-secondary">
   					<div class="p-2 bg-info"><a href="map.html">Map</a></div>
@@ -31,7 +37,7 @@
 		</section>	
 	</header>
 	<section>
-		<div class="heroImage">
+		<!-- <div class="aboutImage"> -->
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-sm-12">
@@ -39,7 +45,22 @@
 					</div>
 				</div>
 			</div>
+		<!-- </div> -->
+	</section>
+	<section>
+		<div class="imageTextContainer">
+			<div class="aboutContainer">
+				<div class="aboutText">
+					<h2>Free Walking Tour Dublin</h2>
+					<h5>The city of Dublin has had its fair share of visitors down through the years; some welcome, others not so much! Nonetheless, invaders like the Vikings and Normans left their mark, moulding the city into the thriving capital it is today. And now, using the Discovery Trails app, you can take a free walking tour through Dublin’s colourful and storied past...</h5>
+				</div>	
+				<div class="aboutImage">
+					<img id="imageOpacity" src="images/bike.jpg" width="100%" alt=""/>
+				</div>	
+			</div>
 		</div>
+	
+					
 	</section>
 	<footer>
 		<div class="whiteBackground">
