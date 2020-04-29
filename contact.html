@@ -18,6 +18,9 @@
 
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+	<!--My JQuery file-->
+	<script src="myJQuery.js"></script>
 		
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,7 +32,7 @@
 			<div class="whiteBackground">
 				<div class="d-flex flex-row-reverse bg-secondary">
   					<div class="p-2 bg-info"><a href="map.html">Map</a></div>
-  					<div class="p-2 bg-warning"><a href="about.html">Booking</a></div>
+  					<div class="p-2 bg-warning"><a href="about.html">About</a></div>
   					<div class="p-2 bg-primary"><a href="index.html">Home</a></div>
 				</div>
 			</div>
@@ -46,7 +49,18 @@
 			</div>
 		</div>
 	</section>
-	<section id="booking">
+	<section id="bookingStart">
+		<container>
+			<div class="row">
+				<div class="col-sm-4"></div>
+				<div class="col-sm-4">
+					<button id="bookingButton" type="button" class="form-control">Make a booking</button>
+				</div>
+				<div class="col-sm-4"></div>
+			</div>
+		</container>
+	</section>
+	<section id="bookingForm">
 		<container>
 			<div class="row">
 				<div class="col-sm-4"></div>
@@ -56,16 +70,16 @@
 							<legend>Book your Dublin experience here</legend>
 						<form method="POST" action="">
 							<label for="firstName">First name</label>
-							<input type="text" name="firstName" class="form-control"><!-- <br> -->
+							<input type="text" name="firstName" class="form-control">
 							<label for="lastName">Last name</label>
-							<input type="text" name="lastName" class="form-control"><!-- <br> -->
+							<input type="text" name="lastName" class="form-control">
 							<label for="date">Date</label>
 							<input type="date" name="date" class="form-control">
 							<select class="form-control">
 								<option>Tin Whistle Experience</option>
 								<option>Ultimate Riverdance Course</option>
 								<option>Search for the leprechaun</option>
-							</select><br>
+							</select>
 							<input type="submit" name="submit" value="Submit" class="form-control">
 						</form>
 						</fieldset>

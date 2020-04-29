@@ -59,6 +59,7 @@ a{
     color: #008000;
     cursor: pointer;
     text-decoration: none;
+    transition: 0.3s;
 }
 a:hover{
 	text-decoration: none;
@@ -207,7 +208,7 @@ footer p{
 	align-items: flex-end;
     display: flex;
 }
-/* --- ---*/
+/* --- Styling for index.html and about.html---*/
 .galleryContainer{
 	display: flex;	
 	justify-content: center;
@@ -215,6 +216,7 @@ footer p{
 	text-align: left;
 	align-content: left;
 }
+
 .galleryBlock{
 	position: relative;
 	width: 100%;
@@ -231,6 +233,44 @@ footer p{
 	width: 100%;
 	height: relative;
 	align-items: flex-end;
+}
+/*---Styling for about.html---*/
+#imageOpacity img{
+	opacity: 0.5;
+}
+#imageOpacity img:hover{
+	opacity: 1.0;
+}
+.aboutContainer{
+	display: flex;	
+	justify-content: center;
+	align-items: left;
+	text-align: left;
+	align-content: left;
+	
+}
+.aboutBlock{
+	position: relative;
+	width: 100%;
+}
+.aboutText{
+	position: relative;
+	padding-top: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 0%;
+	align-items: flex-end;
+}
+.aboutImage img{
+	width: 100%;
+	height: relative;
+	align-items: flex-end;
+	opacity: 0.8;
+	transition: 0.3s;
+	background-color: black;
+}
+.aboutImage img:hover {
+  opacity: 1.0;
 }
 
 /*
@@ -255,13 +295,13 @@ footer p{
 	color: #ff751a;
 }
 .col-sm-1{
-  text-align: center;
-  position: relative;
-  color: white;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  	text-align: center;
+  	position: relative;
+  	color: white;
+  	padding-bottom: 10px;
+  	padding-top: 10px;
 }
-/*Specific styling for map.html*/
+/*Styling for map.html*/
 .containerMap{
 	padding-left: 10%;
   	padding-right: 10%;
@@ -270,6 +310,7 @@ footer p{
 
 }
 /*Styling for booking.html*/
+/*First image on page*/
 .bookingImage{
 	height: 300px;
   	background-image: url("../images/clover_img.jpg");
@@ -282,6 +323,26 @@ footer p{
 	text-shadow: 4px 4px black;
 }
 #booking{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+/*Booking button*/
+#bookingStart{
+	padding:20px;
+}
+#bookingButton{
+	color: #f2f2f2;
+	background-color: #008000;
+	transition: 0.3s;
+	
+}
+
+#bookingButton:hover{
+	background-color: #ff751a;
+}
+
+/*Booking form*/
+#bookingForm{
 	padding-top: 0px;
 	padding-bottom: 15px;
 }
@@ -301,6 +362,23 @@ input{
 	margin-bottom: 5px;
 	margin-top: 5px;
 }
+/*Styling for about.html*/
+#aboutImageContainer, .col-sm-6{
+	padding: 0px;
+	margin: 0px;
+}
+#aboutImageContainer, .container-fluid{
+	margin: 0px;
+	padding: 0px;
+}
+/*.aboutImage{
+	height: 300px;
+  	background-image: url("../images/dublin_night.jpg");
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	background-size: 100%;
+}*/
+
 /*
 	---Embedded fonts---
 */
