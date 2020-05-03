@@ -17,7 +17,6 @@ h1{
 	font-weight: bold;
 	margin: 0px;
 	padding: 0px;
-
 }
 h2, h3{
 	color: #008000;
@@ -41,20 +40,16 @@ p{
 	font-style: normal;
 	font-weight: lighter;
 }
-
 i{
 	font-family: Gentium;
 	font-style: italic;
 	font-weight: lighter;
-
-
 }
 b{
 	font-family: Gentium;
 	font-style: normal;
 	font-weight: bold;
 }
-
 a{
     color: #008000;
     cursor: pointer;
@@ -74,8 +69,7 @@ footer p{
 	margin: 0px;
 }
 /*
-	---Menu styling Bootstrap 4 Flex---
-
+	---Top menu styling, Bootstrap 4 Flex---
 */
 .bg-primary{
 	background-color: white!important;
@@ -121,24 +115,9 @@ footer p{
     text-align: left;
   }
 }*/
+
 /*
-.menuContainer{
-	font-family: Oswald;
-	display: flex;
-	justify-content: right;
-	font-size: 100%
-	width: 100%;
-}
-.menuChoices{
-	position: relative;
-	margin-left: auto;
-	padding-right: 5px;
-	padding-left: 0px;
-	padding-top: 2.5px;
-	padding-bottom: 2.5px;
-}*/
-/*
-	---Hero---
+	---Hero, index.html---
 */
 .col-sm-12 h1{
 	text-align: center;
@@ -151,8 +130,9 @@ footer p{
   	background-position: center;
   	background-size: 100%;
 }
-
-
+/*
+	---Combined image and text in index.html---
+*/
 #indexImageText p{
 	padding: 20px;
 }
@@ -162,8 +142,11 @@ footer p{
 #indexImageText h3{
 	padding: 20px;
 }
+#indexImageText img{
+	width: 100%;
+}
 /*
-	---Adding padding to images on small screens---
+	---Adding padding to images on small screens, index.html---
 */
 @media screen and (max-width: 600px) {
 	#indexImageText img{
@@ -172,8 +155,9 @@ footer p{
 }
 
 
+
 /*
-	---Container used for text and image part of site, used after choices---
+	---Container used for text and image part of site, used in index bicycle image(to be removed) and about.html (to be removed)---
 */
 .imageTextContainer{
 	position: relative;
@@ -182,6 +166,34 @@ footer p{
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
+/*CSS for Bicycle image on index, will be removed*/
+.galleryContainer{
+	display: flex;	
+	justify-content: center;
+	align-items: left;
+	text-align: left;
+	align-content: left;
+}
+.galleryBlock{
+	position: relative;
+	width: 100%;
+}
+.galleryText{
+	position: absolute;
+	padding-top: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 0%;
+	align-items: flex-end;
+}
+.galleryImage img{
+	width: 100%;
+	height: relative;
+	align-items: flex-end;
+}
+
+
+
 
 /*---Bootstrap grid for menu and choices---*/
 .container{
@@ -201,95 +213,12 @@ footer p{
 .col-sm-2 img{
 	width: 75%;
 }
-
 .col-sm-2 svg{
 	display:block;
 	margin: auto;
-}
-/*
-	---Flexbox for images---
-*/
-.imageContainer{
-	display: flex;
-	justify-content: center;
-	padding: 0px;
-	margin: 0px;
-}
-/*
-	---Styling text to the left and image to the right---
-*/
-.textLeftSide{
-	width: 50%;
-	position:relative;
-}
-.textLeftSide p{
-	padding-right: 20px;
-}
-.imageRightSide{
-	width: 50%;
-	position: relative;
-	padding: 0px;
-	margin: 0px;
-	align-items: flex-end;
-    display: flex;
-}
-.textLeftSide p{
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 30px;
-	margin-bottom: 0px;
-}
-/*
-	---Styling text to the right and image to the left---
-*/
-.textRightSide{
-	width: 50%;
-	position: relative;
-}
-.textRightSide p{
-	padding-left: 20px;
-}
-.textRightSide h2{
-	padding-left: 20px;
-}
-.imageLeftSide{
-	width: 50%;
-	position: relative;
-	align-items: flex-end;
-    display: flex;
-}
-/* --- Styling for index.html and about.html---*/
-/*#indexImageText, .container {
-	padding: 0px;
-	margin: 0px;
-}*/
+	width: 3em; 
+	height: 3em;
 
-
-
-.galleryContainer{
-	display: flex;	
-	justify-content: center;
-	align-items: left;
-	text-align: left;
-	align-content: left;
-}
-
-.galleryBlock{
-	position: relative;
-	width: 100%;
-}
-.galleryText{
-	position: absolute;
-	padding-top: 5%;
-	padding-left: 5%;
-	padding-right: 5%;
-	padding-bottom: 0%;
-	align-items: flex-end;
-}
-.galleryImage img{
-	width: 100%;
-	height: relative;
-	align-items: flex-end;
 }
 /*---Styling for about.html---*/
 #imageOpacity img{
@@ -303,8 +232,7 @@ footer p{
 	justify-content: center;
 	align-items: left;
 	text-align: left;
-	align-content: left;
-	
+	align-content: left;	
 }
 .aboutBlock{
 	position: relative;
@@ -329,7 +257,6 @@ footer p{
 .aboutImage img:hover {
   opacity: 1.0;
 }
-
 /*
 	---Background colours---
 */
@@ -340,17 +267,7 @@ footer p{
 	background-color: #f2f2f2;
 }
 /* 
-	---Footer---
-*/
-/*#footerStyle svg{
-	color: #008000;
-	-moz-transition:color .2s ease-in;
-    -o-transition:color .2s ease-in;
-    -webkit-transition:color .2s ease-in;
-}
-#footerStyle svg:hover{
-	color: #ff751a;
-}
+	---Footer, used in all html-files---
 */
 #footerStyle svg{
 	color: #008000;
@@ -364,8 +281,6 @@ footer p{
 #footerStyle svg:hover{
 	color: #ff751a;
 }
-
-
 .col-sm-1{
   	text-align: center;
   	position: relative;
@@ -373,15 +288,22 @@ footer p{
   	padding-bottom: 10px;
   	padding-top: 10px;
 }
-/*Styling for map.html*/
+/*
+	---Styling for map.html---
+*/
 .containerMap{
 	padding-left: 10%;
   	padding-right: 10%;
   	padding-top: 30px;
  	padding-bottom: 30px;
-
 }
-/*Styling for booking.html*/
+.containerMap iframe{
+	width: 640;
+	height: 480;
+}
+/*
+	---Styling for booking.html---
+*/
 /*First image on page*/
 .bookingImage{
 	height: 300px;
@@ -406,13 +328,10 @@ footer p{
 	color: #f2f2f2;
 	background-color: #008000;
 	transition: 0.3s;
-	
 }
-
 #bookingButton:hover{
 	background-color: #ff751a;
 }
-
 /*Booking form*/
 #bookingForm{
 	padding-top: 0px;
@@ -443,14 +362,6 @@ input{
 	margin: 0px;
 	padding: 0px;
 }
-/*.aboutImage{
-	height: 300px;
-  	background-image: url("../images/dublin_night.jpg");
-  	background-repeat: no-repeat;
-  	background-position: center;
-  	background-size: 100%;
-}*/
-
 /*
 	---Embedded fonts---
 */
