@@ -87,7 +87,10 @@ footer p{
 /*
 	---Header/Menu styling---
 */
-/* Hide the link that should open and close the topnav on small screens */
+/* 
+Testing hamburger button
+
+Hide the link that should open and close the topnav on small screens */
 /*.topnav .icon {
   display: none;
 }*/
@@ -218,15 +221,16 @@ footer p{
 	margin: auto;
 	width: 3em; 
 	height: 3em;
+	fill: currentColor;
 
 }
 /*---Styling for about.html---*/
-#imageOpacity img{
+/*#imageOpacity img{
 	opacity: 0.5;
 }
 #imageOpacity img:hover{
 	opacity: 1.0;
-}
+}*/
 .aboutContainer{
 	display: flex;	
 	justify-content: center;
@@ -362,6 +366,30 @@ input{
 	margin: 0px;
 	padding: 0px;
 }
+#aboutImageText, .col-sm-4{
+	display: block;
+	text-align: left;
+}
+#aboutImageText, .col-sm-8{
+	padding-top: 10px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+}
+#aboutImageText p{
+	padding-bottom: 30px;
+}
+#readMoreButton{
+	color: #f2f2f2;
+	background-color: #008000;
+	transition: 0.3s;
+}
+#readMoreButton:hover{
+	background-color: #ff751a;
+}
+#aboutImage{
+	width: 100%;
+}
+
 /*
 	---Embedded fonts---
 */
