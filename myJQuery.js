@@ -6,5 +6,12 @@ $(document).ready(function(){
 	$("#bookingButton").click(function(){
 		$("#bookingForm").slideDown();
 	});
+
+	$("#readMoreContent").hide();
+
+	$("#readMoreButton").click(function(){
+		$("#readMoreContent").fadeIn();
+		$("#readMoreButton").hide();
+	})
 	
 });
