@@ -2,7 +2,6 @@ body {
 	font-family: Oswald;
 	background-color: #f2f2f2;
 	margin: 0px;
-
 }
 header {
 	margin: 0px;
@@ -69,12 +68,6 @@ footer p{
 	margin: 0px;
 }
 /*
-	---Top menu styling, Bootstrap 4 Flex---
-*/
-
-
-
-/*
 	---Hero, index.html---
 */
 .col-sm-12 h1{
@@ -104,14 +97,6 @@ footer p{
 #indexImageText img{
 	width: 100%;
 }
-/*#readMoreButtonSmall{
-	color: #f2f2f2;
-	background-color: #008000;
-	transition: 0.3s;
-}
-#readMoreButtonSmall:hover{
-	background-color: #ff751a;
-}*/
 #eatSee p{
 	margin-bottom: 8px;
 	padding-right: 20px;
@@ -141,8 +126,6 @@ footer p{
 #kiteImage img{
 	height: 70%;
 }
-
-
 /*
 	---Adding padding to images on small screens, index.html---
 */
@@ -157,42 +140,7 @@ footer p{
 	height: 200px;
 	}
 }
-/*
-	---Container used for text and image part of site, used in index bicycle image(to be removed) and about.html (to be removed)---
-*/
-.imageTextContainer{
-	position: relative;
-	margin-right: 25px;
-	margin-left: 25px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
-/*CSS for Bicycle image on index, will be removed*/
-.galleryContainer{
-	display: flex;	
-	justify-content: center;
-	align-items: left;
-	text-align: left;
-	align-content: left;
-}
-.galleryBlock{
-	position: relative;
-	width: 100%;
-}
-.galleryText{
-	position: absolute;
-	padding-top: 5%;
-	padding-left: 5%;
-	padding-right: 5%;
-	padding-bottom: 0%;
-	align-items: flex-end;
-}
-.galleryImage img{
-	width: 100%;
-	height: relative;
-	align-items: flex-end;
-}
-/*---Bootstrap grid for menu and choices---*/
+/*---Bootstrap grid for choices section---*/
 .container{
 	padding: 10px;
 }
@@ -217,31 +165,6 @@ footer p{
 	height: 3em;
 	fill: currentColor;
 
-}
-.aboutContainer{
-	display: flex;	
-	justify-content: center;
-	align-items: left;
-	text-align: left;
-	align-content: left;	
-}
-.aboutBlock{
-	position: relative;
-	width: 100%;
-}
-.aboutText{
-	position: relative;
-	padding-top: 5%;
-	padding-left: 5%;
-	padding-right: 5%;
-	padding-bottom: 0%;
-	align-items: flex-end;
-}
-.aboutImage img{
-	width: 100%;
-	height: relative;
-	align-items: flex-end;
-	padding-right: 10px;
 }
 /*
 	---Background colours---
@@ -288,7 +211,7 @@ footer p{
 	height: 480;
 }
 /*
-	---Styling for booking.html---
+	---Styling for contact.html---
 */
 /*First image on page*/
 .bookingImage{
@@ -349,13 +272,11 @@ input{
 	margin-top: 5px;
 }
 /*Styling for about.html*/
-#aboutImageContainer, .col-sm-6{
-	padding: 0px;
-	margin: 0px;
-}
-#aboutImageContainer, .container-fluid{
-	margin: 0px;
-	padding: 0px;
+.aboutImage img{
+	width: 100%;
+	height: relative;
+	align-items: flex-end;
+	padding-right: 10px;
 }
 #aboutImageText, .col-sm-4{
 	display: block;

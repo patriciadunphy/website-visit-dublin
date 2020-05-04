@@ -13,7 +13,7 @@ $(document).ready(function(){
 		$("#readMoreButton").hide();
 	});
 
-	/*Hiding read more in eat-section on index page*/
+	/*Hiding read more in eat-section and see-section on index page*/
 	$("#readMoreEat").hide();
 	$("#readMoreButtonEat").click(function(){
 		$("#readMoreEat").fadeIn();
@@ -24,6 +24,5 @@ $(document).ready(function(){
 	$("#readMoreButtonSee").click(function(){
 		$("#readMoreSee").fadeIn();
 		$("#readMoreButtonSee").hide();
-	});
-	
+	});	
 });
