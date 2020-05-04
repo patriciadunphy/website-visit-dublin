@@ -62,7 +62,7 @@ a:hover{
 }
 footer{
 	padding: 0px;
-	margin. 0px;
+	margin: 0px;
 }
 footer p{
 	padding: 0px;
@@ -71,22 +71,14 @@ footer p{
 /*
 	---Top menu styling, Bootstrap 4 Flex---
 */
-.bg-primary{
-	background-color: white!important;
-}
-.bg-warning{
-	background-color: white!important;
-}
-.bg-info{
-	background-color: white!important;
-}
-.bg-secondary{
-	background-color: white!important;
-}
+
+
+
 /*
 	---Hero, index.html---
 */
 .col-sm-12 h1{
+	padding-top: 40px;
 	text-align: center;
 	position: relative;
 }
@@ -118,6 +110,12 @@ footer p{
 @media screen and (max-width: 600px) {
 	#indexImageText img{
 		padding-top: 20px;
+	}
+	.col-sm-12 h1{
+	font-size: 40px;
+	}
+	.heroImage{
+	height: 200px;
 	}
 }
 /*
