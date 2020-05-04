@@ -104,6 +104,45 @@ footer p{
 #indexImageText img{
 	width: 100%;
 }
+/*#readMoreButtonSmall{
+	color: #f2f2f2;
+	background-color: #008000;
+	transition: 0.3s;
+}
+#readMoreButtonSmall:hover{
+	background-color: #ff751a;
+}*/
+#eatSee p{
+	margin-bottom: 8px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+#readMoreButtonEat{
+	color: #f2f2f2;
+	background-color: #008000;
+	transition: 0.3s;
+}
+#readMoreButtonEat:hover{
+	background-color: #ff751a;
+}
+#readMoreButtonSee{
+	color: #f2f2f2;
+	background-color: #008000;
+	transition: 0.3s;
+}
+#readMoreButtonSee:hover{
+	background-color: #ff751a;
+}
+#drinkImage img{
+	width: 40%;
+}
+#kiteImage img{
+	height: 70%;
+}
+
+
 /*
 	---Adding padding to images on small screens, index.html---
 */

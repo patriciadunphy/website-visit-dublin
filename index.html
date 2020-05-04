@@ -17,7 +17,10 @@
 
 		<!-- Latest compiled JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-		
+
+		<!--My JQuery file-->
+		<script src="myJQuery.js"></script>
+
 		<link rel="stylesheet" type="text/css" href="styles/style.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -25,15 +28,6 @@
 	</head>
 	<body>
 		<header>
-			<!-- <section>
-				<div class="whiteBackground">
-					<div class="d-flex flex-row-reverse bg-secondary">
-  						<div class="p-2 bg-info"><a href="map.html">Map</a></div>
-  						<div class="p-2 bg-warning"><a href="about.html">About</a></div>
-  						<div class="p-2 bg-primary"><a href="contact.html">Booking</a></div>
-					</div>
-				</div>
-			</section>	 -->
 			<section>
 				<div class="fixed-top">
 					<div class="whiteBackground">
@@ -65,13 +59,13 @@
 					<div class="row">
 						<div class="col-sm-2"></div>
 						<div class="col-sm-2">
-								<a href="https://www.google.com/"><svg class="bi bi-geo-alt" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+								<a href="#eatSee"><svg class="bi bi-geo-alt" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
   								<path fill-rule="evenodd" d="M8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10zm0-7a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"/>
 								</svg>
         						<p>Eat & Drink</p></a>
         				</div>
         				<div class="col-sm-2">
-        						<a href="https://www.google.com/"><svg class="bi bi-camera" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+        						<a href="#eatSee"><svg class="bi bi-camera" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
   								<path d="M9 5C7.343 5 5 6.343 5 8a4 4 0 014-4v1z"/>
   								<path fill-rule="evenodd" d="M14.333 3h-2.015A5.97 5.97 0 009 2a5.972 5.972 0 00-3.318 1H1.667C.747 3 0 3.746 0 4.667v6.666C0 12.253.746 13 1.667 13h4.015c.95.632 2.091 1 3.318 1a5.973 5.973 0 003.318-1h2.015c.92 0 1.667-.746 1.667-1.667V4.667C16 3.747 15.254 3 14.333 3zM1.5 5a.5.5 0 100-1 .5.5 0 000 1zM9 13A5 5 0 109 3a5 5 0 000 10z" clip-rule="evenodd"/>
   								<path d="M2 3a1 1 0 011-1h1a1 1 0 010 2H3a1 1 0 01-1-1z"/>
@@ -79,14 +73,14 @@
         						<p>See & Do</p></a>
         				</div>
         				<div class="col-sm-2">
-        						<a href="https://www.google.com/"><svg class="bi bi-book" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+        						<a href="map.html"><svg class="bi bi-book" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
   								<path fill-rule="evenodd" d="M3.214 1.072C4.813.752 6.916.71 8.354 2.146A.5.5 0 018.5 2.5v11a.5.5 0 01-.854.354c-.843-.844-2.115-1.059-3.47-.92-1.344.14-2.66.617-3.452 1.013A.5.5 0 010 13.5v-11a.5.5 0 01.276-.447L.5 2.5l-.224-.447.002-.001.004-.002.013-.006a5.017 5.017 0 01.22-.103 12.958 12.958 0 012.7-.869zM1 2.82v9.908c.846-.343 1.944-.672 3.074-.788 1.143-.118 2.387-.023 3.426.56V2.718c-1.063-.929-2.631-.956-4.09-.664A11.958 11.958 0 001 2.82z" clip-rule="evenodd"/>
   								<path fill-rule="evenodd" d="M12.786 1.072C11.188.752 9.084.71 7.646 2.146A.5.5 0 007.5 2.5v11a.5.5 0 00.854.354c.843-.844 2.115-1.059 3.47-.92 1.344.14 2.66.617 3.452 1.013A.5.5 0 0016 13.5v-11a.5.5 0 00-.276-.447L15.5 2.5l.224-.447-.002-.001-.004-.002-.013-.006-.047-.023a12.582 12.582 0 00-.799-.34 12.96 12.96 0 00-2.073-.609zM15 2.82v9.908c-.846-.343-1.944-.672-3.074-.788-1.143-.118-2.387-.023-3.426.56V2.718c1.063-.929 2.631-.956 4.09-.664A11.956 11.956 0 0115 2.82z" clip-rule="evenodd"/>
 								</svg>
         						<p>Guides</p></a>
         				</div>
         				<div class="col-sm-2">
-        						<a href="https://www.google.com/"><svg class="bi bi-calendar" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+        						<a href="contact.html"><svg class="bi bi-calendar" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
   								<path fill-rule="evenodd" d="M14 0H2a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V2a2 2 0 00-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z" clip-rule="evenodd"/>
  	 							<path fill-rule="evenodd" d="M6.5 7a1 1 0 100-2 1 1 0 000 2zm3 0a1 1 0 100-2 1 1 0 000 2zm3 0a1 1 0 100-2 1 1 0 000 2zm-9 3a1 1 0 100-2 1 1 0 000 2zm3 0a1 1 0 100-2 1 1 0 000 2zm3 0a1 1 0 100-2 1 1 0 000 2zm3 0a1 1 0 100-2 1 1 0 000 2zm-9 3a1 1 0 100-2 1 1 0 000 2zm3 0a1 1 0 100-2 1 1 0 000 2zm3 0a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/></svg>
         						<p>Events</p></a>
@@ -119,25 +113,77 @@
  				</div>
  			</div>
  		</section>
- 		<section>
+ 		<section id="eatSee">
 			<div class="whiteBackground">
+
 				<div class="container-fluid" id="indexImageText">
 					<div class="row">
 						<div class="col-sm-6">
-							<a href="https://www.google.com/"><h2>Springtime in Dublin</h2></a>
+							<a href="https://www.google.com/"><h2>Eat & Drink</h2></a>
 							<p>The days are getting longer, the sky's getting brighter, and people are in fine form. It must be spring! The new season brings fun for everyone in Ireland's fair city. So check out these five ways to get the maximum out of your days as you keep discovering Dublin this springtime...
 							</p>
+							<section id="readMoreEat">
+								<p>The days are getting longer, the sky's getting brighter, and people are in fine form. It must be spring! The new season brings fun for everyone in Ireland's fair city. So check out these five ways to get the maximum out of your days as you keep discovering Dublin this springtime...</p>
+
+								<div class="container">
+									<div class="row">
+										<div class="col-sm-3"></div>
+										<div class="col-sm-6">
+											<img src="images/drink.jpg" alt="Woman drinking beer in Dublin" id="drinkImage"/>
+										</div>
+										<div class="col-sm-3"></div>
+									</div>
+								</div>
+								
+								<p>The days are getting longer, the sky's getting brighter, and people are in fine form. It must be spring! The new season brings fun for everyone in Ireland's fair city. So check out these five ways to get the maximum out of your days as you keep discovering Dublin this springtime...</p>
+								
+								<p>The days are getting longer, the sky's getting brighter, and people are in fine form. It must be spring! The new season brings fun for everyone in Ireland's fair city. So check out these five ways to get the maximum out of your days as you keep discovering Dublin this springtime...</p>
+							</section>
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-3"></div>
+									<div class="col-sm-6 buttonBox">
+										<button id="readMoreButtonEat" type="button" class="form-control">Read more…</button>
+									</div>
+									<div class="col-sm-3"></div>
+									
+								</div>
+							</div>
+
 						</div>
 						<div class="col-sm-6">
-							<a href="https://www.google.com/"><h3>Take to the water</h3></a>
+							<a href="https://www.google.com/"><h2>See & Do</h2></a>
 							<p>As the weather gets calmer, it's the perfect time to take to the rivers, lakes and oceans around Dublin. For the <i>adventurous</i> amongst us, adrenaline highs can be sought and found in Grand Canal Dock thanks to Wakedock and their wakeboarding facilities. Beginners will be treated gently, with the more advanced getting their kicks thanks to obstacles. Maybe try some stand-up paddleboarding (SUP) or kitesurfing with Pure Magic on some of Dublin's finest beaches.</p>
-							<p>For those who prefer slightly less strenuous activities, let someone else take control as you cruise around Dublin Bay and get a unique view of Dublin. Or perhaps you'd like to learn more about the city while driving through the streets and into the River Liffey on a Viking Splash tour.</p><br/>
+							<p>For those who prefer slightly less strenuous activities, let someone else take control as you cruise around Dublin Bay and get a unique view of Dublin. Or perhaps you'd like to learn more about the city while driving through the streets and into the River Liffey on a Viking Splash tour.</p>
+							<section id="readMoreSee">
+								<p>As the weather gets calmer, it's the perfect time to take to the rivers, lakes and oceans around Dublin. For the <i>adventurous</i> amongst us, adrenaline highs can be sought and found in Grand Canal Dock thanks to Wakedock and their wakeboarding facilities. Beginners will be treated gently, with the more advanced getting their kicks thanks to obstacles. Maybe try some stand-up paddleboarding (SUP) or kitesurfing with Pure Magic on some of Dublin's finest beaches.</p>
+								<div class="container">
+									<div class="row">
+										<div class="col-sm-2"></div>
+										<div class="col-sm-8">
+											<img src="images/kitesurfing.jpg" alt="Man carrying a surfboard" id="kiteImage"/>
+										</div>
+										<div class="col-sm-2"></div>
+									</div>
+								</div>
+								<p>For those who prefer slightly less strenuous activities, let someone else take control as you cruise around Dublin Bay and get a unique view of Dublin. Or perhaps you'd like to learn more about the city while driving through the streets and into the River Liffey on a Viking Splash tour.</p>
+							</section>
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-3"></div>
+									<div class="col-sm-6">
+										<button id="readMoreButtonSee" type="button" class="form-control">Read more…</button>
+									</div>
+									<div class="col-sm-3"></div>
+									
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section>
+		<!-- <section>
 			<div class="imageTextContainer">
 				<div class="galleryContainer">
 					<div class="galleryBlock">
@@ -151,7 +197,7 @@
 					</div>	
 				</div>				
 			</div>
-		</section>
+		</section> -->
 		<footer>
 		<div class="whiteBackground">
 			<div class="container-fluid">
