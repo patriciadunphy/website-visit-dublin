@@ -7,23 +7,19 @@ $(document).ready(function(){
 	});
 	/*Hiding read more on about page and sliding it down*/
 	$("#readMoreContent").hide();
-
 	$("#readMoreButton").click(function(){
 		$("#readMoreContent").fadeIn();
 		$("#readMoreButton").hide();
 	});
-
-	/*Hiding read more in eat-section on index page*/
+	/*Hiding read more in eat-section and see-section on index page*/
 	$("#readMoreEat").hide();
 	$("#readMoreButtonEat").click(function(){
 		$("#readMoreEat").fadeIn();
 		$("#readMoreButtonEat").hide();
 	});
-
 	$("#readMoreSee").hide();
 	$("#readMoreButtonSee").click(function(){
 		$("#readMoreSee").fadeIn();
 		$("#readMoreButtonSee").hide();
-	});
-	
+	});	
 });
