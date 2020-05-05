@@ -117,6 +117,10 @@ footer p{
 #readMoreButtonEat:hover{
 	background-color: #ff751a;
 }
+#readMoreSee .col-sm-8{
+	padding: 0px;
+	margin: 0px;
+}
 #readMoreButtonSee{
 	color: #f2f2f2;
 	background-color: #008000;
