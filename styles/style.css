@@ -97,6 +97,11 @@ footer p{
 #indexImageText img{
 	width: 100%;
 }
+#indexImageText, .col-sm-6{
+	padding: 0px;
+	margin: 0px;
+} 
+
 #eatSee p{
 	margin-bottom: 8px;
 	padding-right: 20px;
