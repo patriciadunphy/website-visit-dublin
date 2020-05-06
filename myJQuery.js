@@ -1,4 +1,3 @@
-/*Function to slide down booking form in contact.html*/
 $(document).ready(function(){
 	/*Hiding booking form on contact page and sliding it down*/
 	$("#bookingForm").hide();
